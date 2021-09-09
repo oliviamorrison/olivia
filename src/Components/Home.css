@@ -1,0 +1,27 @@
+
+@import url(//db.onlinewebfonts.com/c/369c277b77f7dd78a7385446bc047a18?family=Copyright+Klim+Type+Foundry);
+
+body {
+  font-family: 'pitch';
+  min-height: 100vh;
+}
+
+.header {
+  padding: 5%;
+  display: grid;
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
+}
+
+.primary {
+  color: black;
+  font-size: xx-large;
+}
+
+.secondary {
+  color:grey;
+  font-size: medium;
+}
