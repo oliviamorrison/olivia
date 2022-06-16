@@ -1,3 +1,5 @@
+import React from 'react';
+import { Link } from "react-router-dom";
 
 import "./Home.css"
 
@@ -6,14 +8,14 @@ function App() {
   const header = (
     <div className="header">
       <span className="primary">olivia morrison</span>
-      <span className="secondary">otherwise known as William's sister</span>
+      <span className="secondary">my mothers daughter</span>
     </div>
   )
 
   const nav = (
     <ul className="nav">
-      <li><a>now</a></li>
-      <li><a>playground</a></li>
+      <li><Link to="now">now</Link></li>
+      <li><a href="#playground">payground</a></li>
     </ul>
   )
 

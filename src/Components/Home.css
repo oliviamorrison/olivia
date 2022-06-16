@@ -14,6 +14,7 @@ body {
 .nav {
   list-style-type: none;
   display: flex;
+  padding-left: 6vw;
 }
 
 .primary {
@@ -24,4 +25,24 @@ body {
 .secondary {
   color:grey;
   font-size: medium;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+a {
+  padding: 8px;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline blue;
+  text-transform: uppercase;
 }
